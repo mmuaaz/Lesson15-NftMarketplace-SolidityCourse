@@ -29,3 +29,8 @@
 // they cant do it again and again before the function finish running the code
 ;/----------------------------Writing scripts/
 // we are writing tests in order to test some stuff out, we are gonna need this stuff later on when we deploy the SC on the front end
+;/SCRIPTS/
+// files in scripts folder are there to call the different functions in the NFT marketplace while also we used these scripts to update the Moralis server and manage entries there
+;/Utils move-blocks.js/
+// This script mines a block in our local node as we needed 1 block confirmations to test some functions and our node wont mint anything unless we make some txs, so we moved a block
+//but offcourse thats not possible on the mainnet
